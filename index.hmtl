@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost in Translation - Cursos de Inglés en Realidad Virtual</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Ajuste del logo */
+        .logo-container {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .logo-container img {
+            max-width: 150px; /* Tamaño máximo del logo */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Página principal</a></li>
+                    <li><a href="#">Inscripción para particulares</a></li>
+                    <li><a href="#">Convenios para colegios</a></li>
+                    <li><a href="#">Redes sociales</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Visión Misión</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo-container">
+                <img src="logo.png" alt="Aprende inglés en Realidad Virtual">
+            </div>	
+        </header>
+    
+        <div class="main-container">
+            <main class="main-content">
+                <section class="posts">
+                    <article>
+                        <h2>Bienvenido a Lost in Translation</h2>
+                        <p>En <strong>Lost in Translation</strong> transformamos la manera de aprender inglés gracias a la <strong>realidad virtual</strong>. Nuestro objetivo es que no solo aprendas un idioma, sino que lo vivas, lo sientas y lo experimentes en entornos inmersivos que simulan situaciones reales.</p>
+                        
+                        <p>Imagina practicar tu inglés en una cafetería en Londres, en una entrevista de trabajo en Nueva York o en un viaje turístico por Canadá, todo sin salir de casa. La realidad virtual te coloca en escenarios auténticos que te ayudan a mejorar tu pronunciación, comprensión y confianza.</p>
+                        
+                        <p>Ofrecemos cursos diseñados para:</p>
+                        <ul>
+                            <li><strong>Particulares:</strong> Clases personalizadas adaptadas a tu ritmo de aprendizaje.</li>
+                            <li><strong>Colegios:</strong> Programas especiales para instituciones educativas con convenios exclusivos.</li>
+                        </ul>
+
+                        <p>Nuestro equipo de docentes certificados y nuestra plataforma tecnológica garantizan una experiencia educativa de calidad, dinámica y efectiva.</p>
+
+                        <p>Con <strong>Lost in Translation</strong>, aprender inglés es una aventura. ¡Sumérgete en el futuro de la educación!</p>
+                    </article>
+                </section>
+            </main>
+
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3 class="titulo">Principales Beneficios</h3>
+                    <ul>
+                        <li><a href="#">Aprendizaje inmersivo</a></li>
+                        <li><a href="#">Escenarios reales</a></li>
+                        <li><a href="#">Práctica de conversación</a></li>
+                        <li><a href="#">Flexibilidad horaria</a></li>
+                        <li><a href="#">Programas personalizados</a></li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h3 class="titulo">Nuestra propuesta</h3>
+                    <p>En Lost in Translation, unimos la innovación tecnológica con la educación de calidad. Con nuestras experiencias en realidad virtual, buscamos que cada estudiante logre fluidez en inglés de manera práctica, entretenida y significativa.</p>
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Lost in Translation 2025 - Todos los Derechos Reservados</p>
+        </footer>
+    </div>
+</body>
+</html>

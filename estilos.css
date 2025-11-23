@@ -1,0 +1,132 @@
+/* Configuración global y estilos de la página */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Times New Roman" ,Sans-serif;
+  font-size: 16px;
+  background: #4a465b;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+header {
+  background: #fff; }
+  header nav {
+    width: 100%; }
+    header nav ul {
+      list-style: none;
+      overflow: hidden; }
+      header nav ul li {
+        float: left; }
+        header nav ul li a {
+          text-decoration: none;
+          display: inline-block;
+          color: #000;
+          padding: 15px 20px; }
+          header nav ul li a:hover {
+            background: #000;
+            color: #fff;
+          }
+
+/* ------------------ */
+/* Diseño de Columnas */
+/* ------------------ */
+
+.main-container {
+    display: flex; /* Habilita Flexbox para las columnas */
+    gap: 20px; /* Espacio entre las columnas */
+    padding: 20px; /* Padding interno del contenedor */
+}
+
+.main-content {
+    flex-basis: 70%; /* Le da un ancho base del 70% */
+    background: #fff;
+    padding: 0; /* Quitamos el padding aquí y lo ponemos en la sección de posts */
+}
+
+.main-content .posts {
+    padding: 40px;
+    text-align: justify;
+}
+
+.main-content .posts article h2 {
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.main-content .posts article p {
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+.sidebar {
+    flex-basis: 30%; /* Le da un ancho base del 30% */
+    background: #161F26;
+    padding: 20px;
+    color: #fff;
+}
+
+.sidebar .widget {
+    margin-bottom: 20px;
+}
+
+.sidebar .widget .titulo {
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom: 10px;
+}
+
+.sidebar .widget ul {
+    list-style: none;
+}
+
+.sidebar .widget ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+}
+
+.sidebar .widget ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar .widget ul li a:hover {
+    color: #8f8f8f;
+}
+
+.sidebar .widget p {
+    line-height: 27px;
+    text-align: justify;
+}
+
+/* Estilos del pie de página */
+footer {
+    width: 100%; /* Cambiado a 100% para que ocupe todo el ancho del contenedor */
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/* Medias queries para responsive design */
+@media screen and (max-width: 800px) {
+    .main-container {
+        flex-direction: column; /* Apila las columnas en dispositivos móviles */
+    }
+
+    .main-content,
+    .sidebar {
+        flex-basis: auto; /* Permite que cada columna ocupe el ancho completo */
+    }
+}
